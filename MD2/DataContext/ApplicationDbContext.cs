@@ -11,6 +11,7 @@ namespace MD2.DataContext
     public class ApplicationDbContext : IdentityDbContext
     {
         public DbSet<SensorIn> SensorInput { get; set; }
+        public DbSet<DeviceLoc> DeviceLocaton { get; set; }
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)

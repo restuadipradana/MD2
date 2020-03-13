@@ -1,9 +1,9 @@
-﻿{
+{
   "iisSettings": {
-    "windowsAuthentication": false, 
-    "anonymousAuthentication": true, 
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:49908",
+      "applicationUrl": "http://172.16.165.79:49908",
       "sslPort": 0
     }
   },
@@ -18,10 +18,10 @@
     "MD2": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "applicationUrl": "http://localhost:5000"
     }
   }
 }
